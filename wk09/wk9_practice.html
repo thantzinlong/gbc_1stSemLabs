@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 9 practice</title>
+    <meta name="keywords" content="Tables" />
+    <meta name="author" content="Thant Zin Win" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <!-- 
+        tables are tabular data formed by rows & colums.
+        We call these boxes of cells. 
+        A table is made up of rows using a tr tag. 
+        You have a single row and within the row you have data cells using td tag. 
+        you get columns by adding rows of data cells within each rows. 
+        colspan: spans columns.
+        rowspan: spans rows. 
+    
+        vertical cell alignment: can be top, middle of bottom ( only for vertical alignment).
+         cell horizontal alignment: can be left, center or right. 
+         thead tag is for table header(optional, good to have)
+         tr tags are within tbody tag (optional, good to have)
+         tfoot tag if for table footer (optional, good to have)
+         
+         cell padding: refers to the cushion around cells.
+         cell spacing: refers to the space between cells.
+         cell width and height can be changed as well.
+         When height is given to the cell, all cells in the row will adhere to that height.
+     -->
+    <!-- <table>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>5</td>
+        <td rowspan="2">6</td>
+      </tr> 
+      <tr class="table-row3">
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr> 
+      
+     </table> -->
+
+    <!-- table2 -->
+    <table>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>5</td>
+        <td rowspan="3">6</td>
+      </tr>
+      <tr class="table-row3">
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+      </tr>
+      <tr>
+        <td colspan="2">13</td>
+        <td>14</td>
+        <td>15</td>
+      </tr>
+    </table>
+    <script src="https://my.gblearn.com/js/loadscript.js"></script>
+  </body>
+</html>
