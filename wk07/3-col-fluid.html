@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>3-col-fluid</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: lightcyan;
+        border: 2px solid black;
+        margin: 15px auto;
+        width: 60%;
+      }
+
+      header {
+        border-bottom: 2px solid green;
+      }
+
+      footer {
+        border-top: 2px solid green;
+      }
+
+      #sidebarA {
+        border-right: 2px solid red;
+        float: left;
+        height: 350px;
+        width: 20%;
+        min-width: 86px;
+      }
+
+      #sidebarB {
+        border-left: 2px solid red;
+        float: right;
+        height: 350px;
+        width: 20%;
+        min-width: 86px;
+      }
+
+      main {
+        height: 350px;
+        width: 60%;
+        float: left;
+        box-sizing: border-box;
+        overflow: auto;
+        min-width: 240px;
+      }
+      footer {
+        clear: both;
+      }
+    </style>
+    <meta name="description" content="3-col-fluid" />
+    <meta name="keywords" content="3-col-fluid" />
+    <!-- provides search engines a page's content -->
+    <meta name="author" content="Thant Zin Win" />
+    <link href="assets/img/favicon.ico" rel="shortcut icon" />
+  </head>
+  <body>
+    <header>
+      <h2>Header</h2>
+    </header>
+
+    <aside id="sidebarA">
+      <h2>SidebarA</h2>
+    </aside>
+
+    <main>
+      <h2>Main Content</h2>
+      <p>Hover over this with the mouse cursor</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum
+        inventore nihil quisquam sit. At dolor doloremque ea harum libero
+        molestias nostrum officiis quia quisquam quod repellat, sapiente
+        tempore. Reiciendis, ut.
+      </p>
+    </main>
+
+    <aside id="sidebarB">
+      <h2>SidebarB</h2>
+    </aside>
+
+    <footer>
+      <h2>Footer</h2>
+    </footer>
+    <script src="https://my.gblearn.com/js/loadscript.js"></script>
+  </body>
+</html>
