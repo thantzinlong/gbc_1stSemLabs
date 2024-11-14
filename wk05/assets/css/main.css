@@ -1,0 +1,54 @@
+body {
+  background-color: lightblue;
+}
+.lorem {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#lorem {
+  font-size: 150%;
+  color: #0000ff;
+}
+h3 + h4,
+h4 + ol {
+  border: 1px solid red;
+}
+section p {
+  background-color: yellow;
+}
+section h2 + p {
+  background-color: pink;
+}
+
+a[href="https://gblearn.com"]
+{
+  border: 3px dotted red;
+}
+
+a[ href="https://gblearn.com"]:hover,a[href="https://gblearn.com"]:focus
+{
+  border: 3px dotted green;
+}
+
+#lorem::first-letter {
+  font-size: 180%;
+  color: green;
+}
+
+ol li:first-child {
+  color: blue;
+}
+
+ol li:last-child {
+  color: orangered;
+}
+ol li:nth-child(2) {
+  color: orange;
+}
+ol li:nth-child(3) {
+  color: blueviolet;
+}
+
+header > h1 {
+  font-size: 550%;
+  text-shadow: -4px 2px green;
+}
