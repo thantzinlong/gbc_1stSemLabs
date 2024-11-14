@@ -1,0 +1,49 @@
+:root {
+  --font-color: green;
+  --font-hover-color: orange;
+}
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* viewport height units, to stretch body as tall as the screen */
+  font-family: sans-serif;
+}
+.container {
+  width: 600px;
+  background-color: #ddd;
+}
+.form-group {
+  margin-bottom: 1.5em;
+}
+.form-label {
+  font-size: 1.75em;
+  color: var(--font-color);
+  display: block;
+  opacity: 5;
+  /* how much the content behind the elements is hidden */
+}
+.form-control::placeholder {
+  color: red;
+}
+.form-control {
+  box-shadow: none;
+  border-radius: 0; /*there is slightly radius by default*/
+  border-style: none none solid none;
+  border-color: #ccc;
+  font-size: 1.25em;
+  width: 595px;
+}
+textarea {
+  resize: none;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--font-hover-color);
+  outline: none;
+}
+.btn:hover {
+  border-color: var(--font-hover-color);
+}
